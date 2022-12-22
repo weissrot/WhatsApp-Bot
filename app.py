@@ -12,9 +12,11 @@ def reply():
     if "handsome" in text:
         response.message("Baobao is the most handsome boy in the world💜!")
     elif "night" in text:
-        response.message("Gute Nacht mein baby Baobao!Traume etwas schönes!")
+        response.message("Gute Nacht mein baby Baobao👼!Traume etwas schönes!")
     elif "morning" in text:
-        response.message("Guten Morgen, mein lieber kapitän baobao😊.Habe einen schönen Tag!")    
+        response.message("Guten Morgen, mein lieber kapitän baobao😊.Habe einen schönen Tag!")
+    elif "who" in text:
+        response.message("Ich bin eine glückliche Kartoffel👻😊!") 
     else:
         response.message("Hallo, was kann ich für Sie tun?")
     return str(response)
